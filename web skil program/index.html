@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio • Skeleton</title>
+  <meta name="description" content="Kerangka awal portfolio: navbar, hero, about, skills, education, work, experience, contact, runner." />
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <!-- Sticky Navbar -->
+  <header class="nav" role="banner">
+    <div class="nav__inner container">
+      <a class="brand" href="#home">
+        <i class="ri-shield-star-line"></i>
+        <span>Putri Developer</span>
+      </a>
+      <nav class="menu" role="navigation" aria-label="Primary">
+        <a class="menu__link is-active" href="#home">Home</a>
+        <a class="menu__link" href="#about">About</a>
+        <a class="menu__link" href="#skills">Skills</a>
+        <a class="menu__link" href="#education">Education</a>
+        <a class="menu__link" href="#work">Work</a>
+        <a class="menu__link" href="#experience">Experience</a>
+        <a class="menu__link" href="#contact">Contact</a>
+      </nav>
+      <button class="nav__runner-btn" data-open-runner title="Jalankan web lain">
+        <i class="ri-rocket-line"></i>
+      </button>
+    </div>
+  </header>  <!-- Hero / Home -->  <section id="home" class="section hero" data-section>
+    <canvas id="particles" aria-hidden="true"></canvas>
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow">Hallo,</p>
+        <h1 class="hero__title">
+          Selamat Datang Di <br/>
+          <span>Website Putri Dunia <em class="accent">Percodingan</em></span>
+        </h1>
+        <p class="hero__subtitle">I am Programmer <strong class="accent-underline">Backend</strong></p>
+        <div class="hero__cta">
+          <a href="#about" class="btn btn--primary"><i class="ri-user-line"></i> About Me</a>
+          <div class="socials">
+            <a href="#" aria-label="LinkedIn" class="social"><i class="ri-linkedin-fill"></i></a>
+            <a href="#" aria-label="GitHub" class="social"><i class="ri-github-fill"></i></a>
+            <a href="#" aria-label="Twitter" class="social"><i class="ri-twitter-x-line"></i></a>
+            <a href="#" aria-label="Telegram" class="social"><i class="ri-telegram-fill"></i></a>
+            <a href="#" aria-label="Instagram" class="social"><i class="ri-instagram-line"></i></a>
+            <a href="#" aria-label="Website" class="social"><i class="ri-global-line"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__photo-wrap">
+        <img class="hero__photo" src="/assets/profile.jpg" alt="Foto profil" />
+        <span class="photo-glow" aria-hidden="true"></span>
+      </div>
+    </div>
+  </section>  <!-- About -->  <section id="about" class="section about" data-section>
+    <div class="container about__grid">
+      <div class="about__photo card">
+        <img src="/assets/profile-square.jpg" alt="Foto Putri" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__title"><i class="ri-user-3-fill"></i> About <span class="accent">Me</span></h2>
+        <p class="lead">I'm Putri — WEB Developer / Full‑Stack.</p>
+        <p>Saya web developer dari Indonesia. Deskripsi singkat ditempatkan di sini sebagai placeholder.</p>
+        <p>Email: <a href="mailto:putrideveloper@gmail.com">putrideveloper@gmail.com</a></p>
+      </div>
+    </div>
+  </section>  <!-- Skills grid -->  <section id="skills" class="section skills" data-section>
+    <div class="container">
+      <h2 class="section__title"><i class="ri-magic-line"></i> Skills</h2>
+      <div class="skills__grid">
+        <!-- 6×4 placeholder tiles, ikon disesuaikan nanti -->
+        <article class="skill card"><i class="ri-reactjs-line"></i><span>ReactJS</span></article>
+        <article class="skill card"><i class="ri-nodejs-line"></i><span>NodeJS</span></article>
+        <article class="skill card"><i class="ri-redux-line"></i><span>Redux</span></article>
+        <article class="skill card"><i class="ri-fire-fill"></i><span>Firebase</span></article>
+        <article class="skill card"><i class="ri-android-fill"></i><span>Android</span></article>
+        <article class="skill card"><i class="ri-tailwind-css-fill"></i><span>Tailwind</span></article>
+        <article class="skill card"><i class="ri-bootstrap-fill"></i><span>Bootstrap</span></article>
+        <article class="skill card"><i class="ri-html5-fill"></i><span>HTML5</span></article>
+        <article class="skill card"><i class="ri-css3-fill"></i><span>CSS3</span></article>
+        <article class="skill card"><i class="ri-javascript-fill"></i><span>JavaScript</span></article>
+        <article class="skill card"><i class="ri-java-fill"></i><span>Java</span></article>
+        <article class="skill card"><i class="ri-php-fill"></i><span>PHP</span></article>
+        <article class="skill card"><i class="ri-python-fill"></i><span>Python</span></article>
+        <article class="skill card"><i class="ri-database-2-fill"></i><span>MySQL</span></article>
+        <article class="skill card"><i class="ri-database-fill"></i><span>PostgreSQL</span></article>
+        <article class="skill card"><i class="ri-cloud-fill"></i><span>AWS</span></article>
+        <article class="skill card"><i class="ri-git-branch-fill"></i><span>Git</span></article>
+        <article class="skill card"><i class="ri-docker-fill"></i><span>Docker</span></article>
+        <article class="skill card"><i class="ri-shield-keyhole-fill"></i><span>Auth</span></article>
+        <article class="skill card"><i class="ri-terminal-box-fill"></i><span>CLI</span></article>
+        <article class="skill card"><i class="ri-linux-fill"></i><span>Linux</span></article>
+        <article class="skill card"><i class="ri-braces-fill"></i><span>API</span></article>
+        <article class="skill card"><i class="ri-reactjs-line"></i><span>Next.js</span></article>
+        <article class="skill card"><i class="ri-vuejs-fill"></i><span>Vue</span></article>
+      </div>
+    </div>
+  </section>  <!-- Education -->  <section id="education" class="section" data-section>
+    <div class="container">
+      <h2 class="section__title"><i class="ri-graduation-cap-fill"></i> My Education</h2>
+      <div class="timeline">
+        <article class="timeline__item card">
+          <img src="/assets/campus.jpg" alt="Kampus" />
+          <div class="timeline__content">
+            <h3>Universitas PGRI Sumatera Barat</h3>
+            <p>Teknik Informatika • 2020–2024</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>  <!-- Work -->  <section id="work" class="section" data-section>
+    <div class="container">
+      <h2 class="section__title"><i class="ri-briefcase-4-fill"></i> Work</h2>
+      <div class="cards">
+        <article class="card placeholder">Proyek 1</article>
+        <article class="card placeholder">Proyek 2</article>
+        <article class="card placeholder">Proyek 3</article>
+      </div>
+    </div>
+  </section>  <!-- Experience -->  <section id="experience" class="section" data-section>
+    <div class="container">
+      <h2 class="section__title"><i class="ri-medal-fill"></i> Experience</h2>
+      <ul class="list">
+        <li class="card">Jabatan • Perusahaan • Tahun</li>
+        <li class="card">Jabatan • Perusahaan • Tahun</li>
+      </ul>
+    </div>
+  </section>  <!-- Contact -->  <section id="contact" class="section" data-section>
+    <div class="container contact__grid">
+      <h2 class="section__title"><i class="ri-mail-send-fill"></i> Contact</h2>
+      <form class="contact__form" action="#" method="post">
+        <input class="input" type="text" name="name" placeholder="Nama" required />
+        <input class="input" type="email" name="email" placeholder="Email" required />
+        <textarea class="input" name="message" rows="4" placeholder="Pesan"></textarea>
+        <button class="btn btn--primary" type="submit">Kirim</button>
+      </form>
+    </div>
+  </section>  <!-- Footer -->  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Putri Developer</p>
+    </div>
+  </footer>  <!-- Scroll to top --><button class="fab" data-scrolltop aria-label="Kembali ke atas"><i class="ri-arrow-up-line"></i></button>
+
+  <!-- Runner Modal -->  <dialog class="runner" id="runner">
+    <form method="dialog" class="runner__head">
+      <h3><i class="ri-rocket-line"></i> Web Runner</h3>
+      <button class="runner__close" value="close" aria-label="Tutup"><i class="ri-close-line"></i></button>
+    </form>
+    <div class="runner__body">
+      <div class="runner__controls">
+        <input id="runnerUrl" type="url" class="input" placeholder="https://domain-anda.com" />
+        <button class="btn" data-run-url>Open</button>
+        <button class="btn btn--ghost" data-run-local title="Muat folder lokal">Open Local</button>
+      </div>
+      <div class="runner__frame-wrap">
+        <iframe id="runnerFrame" title="Web Runner" sandbox="allow-scripts allow-forms allow-same-origin"></iframe>
+      </div>
+    </div>
+  </dialog> 
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
